@@ -4,7 +4,6 @@ header {
     background-image: linear-gradient(to bottom, #135058, #f1f2b5);
     position: relative;
     min-height: 700px;
-
 }
 
 html {
@@ -17,10 +16,9 @@ header section {
     align-items: flex-start;
     flex-direction: column;
     font-style: italic;
-
-    
 }
-header section h1{
+
+header section h1 {
     font-size: 40px;
 }
 
@@ -31,13 +29,11 @@ header .text {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .container img {
     height: 100%;
     z-index: 0;
-
 }
 
 header .container {
@@ -52,28 +48,24 @@ header .container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
     width: 100%;
-
 }
 
 .box ul {
     display: flex;
     list-style: none;
-    align-self: flex-end;
-}
-
-.box :first-child {
-    display: flex;
-    width: 100px;
-
-}
-
-.box ul {
-    display: flex;
     gap: 20px;
 }
 
+#logo {
+    width: 150px;
+}
+
+#logo img {
+    object-fit: cover;
+    width: 100%;
+}
 
 body {
     display: flex;
@@ -82,31 +74,26 @@ body {
     gap: 15px;
     padding: 0;
     margin: 0;
-    background-color:#FBE5D2  ; 
-
-
+    background-color: #FBE5D2;
 }
 
 footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
     width: 100%;
     background-image: linear-gradient(to bottom, #f1f2b5, #135058);
 }
 
 footer ul {
     list-style: none;
-    gap: 20px;
     flex-direction: column;
-
 }
 
 footer section img {
     display: flex;
     width: 25px;
-
 }
 
 footer div img {
@@ -115,10 +102,9 @@ footer div img {
 }
 
 footer section {
-    display: flex;
-    align-items: flex-end;
+    display: block;
+    align-items: center;
     flex-direction: column;
-
 }
 
 main {
@@ -126,21 +112,29 @@ main {
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     width: 100%;
-    max-width: 1100px;   
+    max-width: 1100px;
 }
+
 main article img {
-            width: 100%;
+    width: 90%;
 }
- main article a{
-    display:flex;
-    border: solid #FBE5D2;
+
+main article a {
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
     background-color: #FBE5D2;
     justify-content: center;
-    
-
+    color: black;
 }
-header nav a {
+
+
+.btn{
     display: flex;
-    border: solid #135058 , #225D5F;
-    background-color:#135058 ,#225D5F ; 
+    justify-content: center;
+    color: white;
+    border: solid black;
+    border-radius: 20px;
+
+
 }
