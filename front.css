@@ -63,18 +63,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 15px;,;
     padding: 0;
     margin: 0;
 
 }
 
 footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
+
     width: 100%;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(8, 9, 9);
+    align-items: center;
+    font-family: 'Lora', serif;
+  
+  }
+
+footer a {
+    color: white;
 }
 
 footer ul {
@@ -105,6 +113,5 @@ footer section {
 main article{
     display: grid;
     
-
     
 }
