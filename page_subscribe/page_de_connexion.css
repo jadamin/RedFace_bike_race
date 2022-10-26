@@ -111,38 +111,6 @@ image{
     display: flex;
     gap: 20px;
 }
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-    width: 100%;
-}
-
-footer ul {
-    list-style: none;
-    gap: 20px;
-    flex-direction: column;
-
-}
-
-footer section img {
-    display: flex;
-    width: 25px;
-
-}
-
-footer div img {
-    display: flex;
-    width: 100px;
-}
-
-footer section {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-
-}
 
 main article{
     display: grid;
