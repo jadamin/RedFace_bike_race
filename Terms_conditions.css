@@ -1,0 +1,27 @@
+
+li{
+    max-width: 100%;
+    width: 100%;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+h1
+{
+    display: contents;
+    align-content: center;
+    justify-content: space-around;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    border-color: bisque;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
