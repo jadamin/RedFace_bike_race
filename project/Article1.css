@@ -43,14 +43,13 @@ header .container {
     bottom: -10px;
     z-index: 0;
 }
-
 .box {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    position: fixed;
+    position: absolute;
     z-index: 1000;
     background-color: transparent;
 }
@@ -62,7 +61,10 @@ header .container {
 }
 
 .box ul li a {
+    display: flex;
+    justify-content: center;
     color: white;
+    border-radius: 20px;
     padding: 8px;
 }
 
